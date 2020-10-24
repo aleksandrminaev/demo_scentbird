@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  finance:
+    image: demo:latest
+    hostname: demo
+    ports:
+      - "8080:8080"
